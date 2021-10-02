@@ -1,0 +1,41 @@
+.wish-list-button {
+  right: 0;
+  position: absolute;
+  outline: transparent;
+  border-color: transparent;
+  background-color: transparent;
+}
+
+.wish-list-button:hover {
+  cursor: pointer;
+}
+
+svg .wish-list-added-path,
+svg:hover .wish-list-default-path {
+  stroke: #da4b4f;
+}
+
+svg .wish-list-added-circle {
+  fill: #da4b4f;
+}
+
+svg .wish-list-added-path,
+svg .wish-list-added-circle,
+svg .wish-list-default-circle,
+svg .wish-list-default-circle {
+  transition: 0.3s all ease-in-out;
+}
+
+svg .wish-list-added-path,
+svg:hover .wish-list-default-path,
+svg:hover .wish-list-default-circle {
+  fill: #fee5ec;
+}
+
+svg:hover .wish-list-added-path {
+  stroke: #c22539;
+}
+
+svg:hover .wish-list-added-circle {
+  fill: #c22539;
+}

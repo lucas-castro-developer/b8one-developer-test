@@ -37,3 +37,7 @@
   text-transform: uppercase;
   color: #1c1c1c;
 }
+
+.product-button-add .product-added-to-cart:hover {
+  cursor: pointer;
+}

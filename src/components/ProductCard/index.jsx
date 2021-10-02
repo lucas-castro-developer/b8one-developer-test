@@ -11,6 +11,7 @@ function ProductCard(props) {
   return (
     <div className="product-card">
       <ProductImage
+        productId={props.item.productId}
         src={props.item.imageSrc}
         alt="Televisão"
         title="Televisão"
@@ -30,7 +31,6 @@ function ProductCard(props) {
         labelAdicionado="Adicionado"
         labelNaoAdicionado="Adicionar"
         productId={props.item?.productId}
-        status={props.addedToCart}
       />
     </div>
   );

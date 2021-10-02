@@ -1,5 +1,5 @@
 import "./App.css";
-import "./assets/font-faces.css";
+import "./assets/fonts/font-faces.css";
 
 import { ProductList } from "./ProductList";
 import ProductCard from "./components/ProductCard";

@@ -1,5 +1,5 @@
-import imageExample1 from "./image-teste.png";
-import imageExample2 from "./image-teste.png";
+import imageExample1 from "./assets/images/image-for-test.png";
+import imageExample2 from "./assets/images/image-for-test.png";
 
 export const ProductList = [
   {

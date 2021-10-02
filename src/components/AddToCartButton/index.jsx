@@ -22,14 +22,14 @@ function AddToCartButton(props) {
       {addedToCartProd1 || addedToCartProd2 ? (
         <button
           className="product-added-to-cart"
-          onClick={() => manageProductToCart(props.productId, props.status)}
+          onClick={() => manageProductToCart(props.productId)}
         >
           {props.labelAdicionado}
         </button>
       ) : (
         <button
           className="add-to-cart-button"
-          onClick={() => manageProductToCart(props.productId, props.status)}
+          onClick={() => manageProductToCart(props.productId)}
         >
           {props.labelNaoAdicionado}
         </button>

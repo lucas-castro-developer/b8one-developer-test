@@ -1,6 +1,8 @@
 import React from "react";
 import "./index.css";
 
+import WishListButton from "../WishListButton";
+
 function ProductImage(props) {
   return (
     <div className="product-images">
@@ -10,6 +12,7 @@ function ProductImage(props) {
         title={props.title}
         className="product-image"
       />
+      <WishListButton productId={props.productId} />
     </div>
   );
 }
