@@ -1,12 +1,31 @@
 .App {
-  background-color: #000;
+  padding: 32px;
+  display: flex;
+  justify-content: center;
+  background-color: #e5e5e5;
 }
 
 .product-info {
+  width: 300px;
   padding: 32px;
+  margin: 0 32px;
   max-width: 300px;
   border-radius: 8px;
   background: #ffffff;
+  box-sizing: border-box;
+}
+
+.product-info:hover {
+  cursor: pointer;
+  border-radius: 8px;
+  background: #ffffff;
+  transition: 0.7s all ease;
+  box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.08);
+}
+
+.product-images {
+  display: flex;
+  justify-content: center;
 }
 
 .product-name {
@@ -54,7 +73,8 @@
   color: #1c1c1c;
 }
 
-.add-to-cart-button {
+.product-button-add .add-to-cart-button {
+  width: 100%;
   margin-top: 32px;
   padding: 12px 75px;
   border-radius: 5px;
@@ -68,4 +88,10 @@
   letter-spacing: -0.005em;
   text-transform: uppercase;
   color: #ffffff;
+}
+
+.product-button-add .add-to-cart-button:hover {
+  cursor: pointer;
+  transition: 0.7s all ease;
+  background-color: #1c6c3e;
 }
