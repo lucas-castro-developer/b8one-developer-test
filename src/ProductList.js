@@ -3,6 +3,7 @@ import imageExample2 from "./image-teste.png";
 
 export const ProductList = [
   {
+    productId: 1,
     imageSrc: imageExample1,
     productName:
       "Monitor LED 27'' Gamer Curvo Samsung 1920 x 1080 FHD 240 Hz HDMI, DP, Gsync Série CRG50",
@@ -14,8 +15,11 @@ export const ProductList = [
       numberOfInstallments: 10,
       installmentsPrice: 259.9,
     },
+    wishList: false,
+    addedToCart: false,
   },
   {
+    productId: 2,
     imageSrc: imageExample2,
     productName:
       "Monitor LED 27'' Gamer Curvo Samsung 1920 x 1080 FHD 240 Hz HDMI, DP, Gsync Série CRG50",
@@ -27,5 +31,7 @@ export const ProductList = [
       numberOfInstallments: 10,
       installmentsPrice: 259.9,
     },
+    wishList: false,
+    addedToCart: false,
   },
 ];

@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="App">
       {ProductList.map((value, index) => {
-        return <ProductCard item={value} />;
+        return <ProductCard item={value} key={index} />;
       })}
     </div>
   );

@@ -26,7 +26,12 @@ function ProductCard(props) {
           props.item?.productInstallments?.installmentsPrice
         }
       />
-      <AddToCartButton label="Adicionar" />
+      <AddToCartButton
+        labelAdicionado="Adicionado"
+        labelNaoAdicionado="Adicionar"
+        productId={props.item?.productId}
+        status={props.addedToCart}
+      />
     </div>
   );
 }
