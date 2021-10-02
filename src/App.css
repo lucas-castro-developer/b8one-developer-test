@@ -4,21 +4,3 @@
   justify-content: center;
   background-color: #e5e5e5;
 }
-
-.product-info {
-  width: 300px;
-  padding: 32px;
-  margin: 0 32px;
-  max-width: 300px;
-  border-radius: 8px;
-  background: #ffffff;
-  box-sizing: border-box;
-}
-
-.product-info:hover {
-  cursor: pointer;
-  border-radius: 8px;
-  background: #ffffff;
-  transition: 0.7s all ease;
-  box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.08);
-}
