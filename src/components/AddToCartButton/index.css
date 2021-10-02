@@ -24,7 +24,7 @@
 .product-button-add .product-added-to-cart {
   width: 100%;
   margin-top: 32px;
-  padding: 12px 75px;
+  padding: 12px 50px;
   border-radius: 5px;
   border-color: transparent;
   background-color: #a3f9b9;
@@ -36,6 +36,19 @@
   letter-spacing: -0.005em;
   text-transform: uppercase;
   color: #1c1c1c;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.product-button-add .product-added-to-cart::before {
+  content: "";
+  width: 16px;
+  height: 16px;
+  display: flex;
+  padding-right: 15px;
+  background-repeat: no-repeat;
+  background-image: url("data:image/svg+xml,%0A%3Csvg width='19' height='13' viewBox='0 0 19 13' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M17.5 1L6.5 12L1.5 7' stroke='%231C1C1C' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E%0A");
 }
 
 .product-button-add .product-added-to-cart:hover {
