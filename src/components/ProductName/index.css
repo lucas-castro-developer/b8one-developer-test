@@ -1,0 +1,9 @@
+.product-name {
+  margin: 32px 0 24px;
+  font-family: Inter;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 14px;
+  color: #1c1c1c;
+  line-height: 20px;
+}

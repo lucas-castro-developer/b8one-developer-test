@@ -1,0 +1,22 @@
+.product-button-add .add-to-cart-button {
+  width: 100%;
+  margin-top: 32px;
+  padding: 12px 75px;
+  border-radius: 5px;
+  border-color: transparent;
+  background: #40b25c;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.005em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.product-button-add .add-to-cart-button:hover {
+  cursor: pointer;
+  transition: 0.7s all ease;
+  background-color: #1c6c3e;
+}

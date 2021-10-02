@@ -1,0 +1,20 @@
+.product-price .product-list-price {
+  color: #b5b5b6;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: -0.005em;
+  text-decoration-line: line-through;
+}
+
+.product-price .product-selling-price {
+  color: #da4b4f;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: -0.005em;
+}

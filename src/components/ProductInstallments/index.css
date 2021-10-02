@@ -1,0 +1,13 @@
+.product-installments {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: -0.005em;
+  color: #848587;
+}
+
+.product-installments .product-installments-info {
+  color: #1c1c1c;
+}
