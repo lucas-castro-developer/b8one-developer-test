@@ -1,18 +1,15 @@
-# b8one-developer-test
-Teste de conhecimento proposto pela agência b8One
-
-# Lista de tarefas - TodoApp
+# b8one developer test
 
 <br />
 <p align="center">
-  <a href="https://github.com/lucas-castro-developer/cod3r-todo-app-react">
-    <img src="images/todo-app-1.png">
+  <a href="https://github.com/lucas-castro-developer/b8one-lucas-castro-challenge">
+    <img src="https://user-images.githubusercontent.com/8903852/135764875-0b0d7b5c-d8e9-45fb-b5e7-d4acef5f74b6.png" />
   </a>
 
-  <h3 align="center">App de Lista de Tarefas - TodoApp</h3>
+  <h3 align="center">b8one developer test</h3>
 
   <p align="center">
-    Um jeito legal de você se organizar!
+    Teste de conhecimento proposto pela agência b8One
     <br />
     <a href="https://github.com/lucas-castro-developer/cod3r-todo-app-react"><strong>Explore as documentações »</strong></a>
     <br />
@@ -44,19 +41,19 @@ Teste de conhecimento proposto pela agência b8One
 
 ## Sobre o projeto
 
-O projeto TodoApp é uma lista de tarefas dinâmica onde o usuário pode cadastrar uma nova tarefa, tornar a tarefa como concluída, excluir e pesquisar tarefas já cadastradas.
+Projeto desenvolvido com HTML, CSS, Javascript e React.
 
-Há a opção de voltar o estado da tarefa como não concluída.
+Caso queira testar ao vivo, segue o link da produção: https://b8one-lucas-castro-challenge.herokuapp.com/
 
 Abaixo, segue imagens do layout construído em dispositivos  `mobile` e `desktop`:
 
 **Mobile**
 
-<img src="images/todo-app-2.png">
+![b8one-challenge-mobile-1](https://user-images.githubusercontent.com/8903852/135764925-28e19e80-56c3-49ed-872c-63c78b0bc91f.png)
 
 **Desktop**
 
-<img src="images/todo-app-1.png">
+![b8one-challenge-desktop-1](https://user-images.githubusercontent.com/8903852/135764933-17086515-f53d-4bef-b25b-15a710d49a55.png)
 
 ### Construído com
 
@@ -65,9 +62,6 @@ Este projeto foi construído com o auxílio das seguintes ferramentas
 * [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
 * [Javascript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 * [ReactJS](https://pt-br.reactjs.org/)
-* [MongoDB](https://www.mongodb.com/2)
-* [Bootstrap](https://getbootstrap.com/)
-* [React Redux](https://react-redux.js.org/)
 
 <!-- GETTING STARTED -->
 ## Iniciando
@@ -76,48 +70,26 @@ Para começar a manipular o projeto, siga os passos abaixo:
 
 ### Pré-requisitos
 
-Certifique-se de ter o MongoDB instalado em sua máquina local.
-
-Para mais informações, [acesse a documentação](https://www.mongodb.com/2)
+Não há pré-requisitos para este projeto.
 
 ### Instalação
 
 1. Clone o repositório
  ```sh
- git clone https://github.com/lucas-castro-developer/cod3r-todo-app-react.git
+ git clone https://github.com/lucas-castro-developer/b8one-lucas-castro-challenge.git
  ```
 
-2. Abra uma instância do seu terminal e entre na pasta `backend`
- ```sh
- cd backend
- ```
-
-3. Instale as dependências
+2. Na raiz do projeto, instale as dependências com o comando abaixo:
  ```sh
  npm install
  ```
-
-4. Certifique-se de que o MongoDB esteja aberto e execute o seguinte o comando:
+ 
+3. Depois, rode outro comando para inicializar o projeto e criar servidor para desenvolvimento e testes:
  ```sh
- npm run dev
+ npm start
  ```
 
-5. Agora abra outra instância do seu terminal e entre na pasta `frontend`:
- ```sh
- cd frontend
- ```
-
-6. Instale as dependências
- ```sh
- npm install
- ```
-
-7. Execute o comando abaixo:
-```sh
-npm run dev
-```
-
-8. Pronto. Seu projeto estará funcionando tanto a nível de backend quanto frontend
+4. Pronto. Seu projeto estará funcionando localmente.
 
 ## Contribuição
 
@@ -135,7 +107,7 @@ Este projeto não utiliza nenhum tipo de licença.
 
 ## Contato
 
-Lucas dos Santos Castro - [LinkedIn](https://www.linkedin.com/in/lucas-castro-5762a6125/) - lucascastrodeveloper@gmail.com
+Lucas dos Santos Castro - [LinkedIn](https://www.linkedin.com/in/lucas-santos-castro-developer/) - lucascastrodeveloper@gmail.com
 
-Project Link: [https://github.com/lucas-castro-developer/cod3r-todo-app-react](https://github.com/lucas-castro-developer/cod3r-todo-app-react)
+Project Link: [https://github.com/lucas-castro-developer/b8one-lucas-castro-challenge](https://github.com/lucas-castro-developer/b8one-lucas-castro-challenge)
 
